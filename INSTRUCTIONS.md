@@ -1,7 +1,3 @@
-Here's your **prettified Markdown** version with improved formatting, consistent spacing, clearer sectioning, and enhanced readability. It maintains the same content and structure, but with better visual flow and styling for professional documentation:
-
----
-
 # 🧪 QA Practical Test: To-Do List
 
 ## 📖 User Story
@@ -99,7 +95,3 @@ Your submission will be assessed based on:
 
 You can access the testing environment here:
 🔗 [https://qa.santiagosaavedra.com.co/](https://qa.santiagosaavedra.com.co/)
-
----
-
-Let me know if you'd like this converted to **PDF**, have test case tables generated, or want example automated tests as a starting point!
