@@ -12,7 +12,7 @@ export function useTasks() {
     tasks.value.push({ id: tasks.value.length, text })
   }
   function removeTask(id: number) {
-    tasks.value = tasks.value.filter(task => task.id !== id)
+    tasks.value = tasks.value.filter((task) => task.id !== id)
   }
   return { tasks, addTask, removeTask }
 }

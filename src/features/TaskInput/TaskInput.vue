@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import { ref } from 'vue';
-const input = ref('');
-const emit = defineEmits<(e: 'add-task', text: string) => void>();
+import { ref } from 'vue'
+const input = ref('')
+const emit = defineEmits<(e: 'add-task', text: string) => void>()
 function submitTask() {
   if (input.value.trim()) {
-    emit('add-task', input.value.trim());
-    input.value = '';
+    emit('add-task', input.value.trim())
+    input.value = ''
   }
 }
 </script>
@@ -17,4 +17,4 @@ function submitTask() {
   </form>
 </template>
 
-<style src="./TaskInput.style.css" scoped></style> 
+<style src="./TaskInput.style.css" scoped></style>

@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import TaskInput from './features/TaskInput/TaskInput.vue';
-import { useTasks } from './features/TaskList/hooks/useTasks';
-import TaskList from './features/TaskList/TaskList.vue';
+import TaskInput from './features/TaskInput/TaskInput.vue'
+import { useTasks } from './features/TaskList/hooks/useTasks'
+import TaskList from './features/TaskList/TaskList.vue'
 
-const { tasks, addTask, removeTask } = useTasks();
+const { tasks, addTask, removeTask } = useTasks()
 </script>
 
 <template>

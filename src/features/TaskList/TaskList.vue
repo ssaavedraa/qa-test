@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const props = defineProps<{ tasks: { id: number; text: string }[] }>()
+defineProps<{ tasks: { id: number; text: string }[] }>()
 const emit = defineEmits<(e: 'delete-task', id: number) => void>()
 </script>
 
