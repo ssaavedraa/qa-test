@@ -1,0 +1,21 @@
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  color: black;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+button {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
