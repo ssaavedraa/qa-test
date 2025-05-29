@@ -7,6 +7,7 @@ As a user, I want to add and remove tasks from my to-do list so that I can manag
 ## Purpose
 
 This document describes a practical QA test for a simple To-Do List application. The scenarios are designed to evaluate the candidate's ability to:
+
 - Understand requirements
 - Design and write test cases
 - Use acceptance criteria in Gherkin format
@@ -31,7 +32,9 @@ Feature: Manage To-Do List
 ## Test Details
 
 ### Objective
+
 Test the candidate's ability to:
+
 - Analyze requirements
 - Design and write test cases (manual or automated)
 - Communicate findings clearly
@@ -39,10 +42,12 @@ Test the candidate's ability to:
 ### Instructions for the Candidate
 
 You are provided with:
+
 - A user story and acceptance criteria for a simple To-Do List application (see above).
 - Gherkin-style scenarios (see above).
 
 Your tasks:
+
 1. **Review the user story and acceptance criteria.**
 2. **Write detailed test cases** (manual or automated) for the scenarios provided.
    - If manual, use a table or checklist format.
@@ -66,3 +71,5 @@ Your tasks:
 - (If automated) Code quality and maintainability
 
 These scenarios and instructions are intended to be clear, concise, and easy to implement for both manual and automated testing.
+
+#### QA environment is available [here](https://qa.santiagosaavedra.com.co/)
